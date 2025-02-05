@@ -7,7 +7,7 @@ def test_homework():
     """Test the homework."""
 
     assert os.path.exists(
-        "files/data/demanda-comercial-dias.csv"
+        "files/plots/demanda-comercial-dias.csv"
     ), "files/data/demanda-comercial-dias.csv file is missing"
 
     assert os.path.exists(
